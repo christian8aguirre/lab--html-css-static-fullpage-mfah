@@ -1,0 +1,495 @@
+
+
+*{
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+    color: #333333;
+    font-family: sans-serif;
+
+}
+body p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+}
+
+.mfah-logo{
+    width: 15%;;
+    height: 100%;
+    
+}
+
+.mfah-label{
+    width: 60%;
+    height: 100%;
+}
+
+.barras_ocultas{
+    visibility: hidden;
+}
+
+.lista{
+    background-color: #333333;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    color: #ebe8e7;
+    font-size: 13px;
+}
+
+.list li{
+    padding: 15px 10px;
+}
+
+.list_home{
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.list_home li{
+    margin: 40px 10px;
+    padding: 10px 15px;
+    background: #f9fbc6;
+}
+
+.list_home .different{
+    background-color: #a4dae9;
+}
+
+section{
+    width: 96%;
+    margin: 0 1% 2% 2%;
+    background-color: white;
+
+     
+}
+
+li a, .col21 a{
+    text-decoration: none;
+    color: #4985c2;
+}
+
+.col21 a{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.col1{
+    width: 70%;
+    display: flex;
+}
+
+.col11{
+    flex: 1;
+}
+
+.col111{
+    padding: 0 3%;
+}
+.col112, .col122{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col1121{
+    flex: 1;
+    padding: 0 3%;
+}
+.col1122{
+    flex: 1;
+}
+.future{
+    width: 100%;
+    padding: 0 1%;
+}
+
+.col1221{
+    flex: 1;
+}
+.col1222{
+    flex: 1;
+    padding: 0 3%;
+}
+.glasell{
+    width: 100%;
+    margin-left: 3%;
+}
+
+.col1222 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col1222 h4{
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+
+.col2{
+    width: 30%;
+    padding: 0 1%;
+}
+
+.col21{
+    display: flex;
+    margin-top: 2%;
+}
+.col211{
+    flex: 1;
+}
+
+.col212{
+    flex: 2;
+    color: darkgrey;
+    margin: 0 1%;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+ 
+
+.col211 img{
+    width: 100%;
+}
+
+.col212 p{
+    font-size: 10px;
+    color: #333333;
+}
+
+.oculto{
+    text-align: end;
+    visibility: hidden;
+    margin-right: 8%;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 1%;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 36px;
+    padding: 0 3%;
+    
+}
+h2{
+    font-size: 30px;
+    padding: 0 3%;
+}
+h3{
+    font-size: 24px;
+    margin-top: 0;
+
+}
+
+
+h5{
+    margin: 0;
+    
+}
+
+hr{
+    border-top: 1px solid lightgray;
+
+}
+
+.col2 hr{
+    border-top: 1px dashed lightgray;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #333333;
+    font-size: 11px;
+    display: flex;
+}
+
+.footer1 ul li{
+    padding-left: 0 3%;
+    flex:1;
+}
+
+.footer ul li span{
+    font-weight: bold;
+}
+
+.triangulo {
+    padding: 0 5px;
+    font-size: 10px;
+    color: #DB4B38;
+}
+
+.menu{
+    width: 20%;
+    height: 13%;
+    position: fixed;
+    bottom: 50px;
+    right: 14px;
+    background-color: #3A539B;
+    opacity: 0.9;
+
+}
+
+.menu ul{
+    list-style-type: none;
+    color: white;
+    font-size: 11px;
+    padding: 7px;
+    margin: 0;
+    
+}
+.menu ul li i{
+    color: #DB4B38;
+    padding: 5px;
+}
+
+.search{
+    display: flex;
+    margin: 0 10px;
+}
+
+.search input{
+    flex:10;
+}
+.search button{
+    flex: 1;
+    background-color: #e9eae9;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+body{
+    background-color: white;
+}
+
+.wrapper{
+    margin: 0 7%;
+}
+
+.mfah-label{
+    visibility: hidden;
+    width: 1%;
+    flex: 1;
+}
+
+.mfah-logo{
+    width: 50%;
+    align-self: center;
+}
+
+.barras_ocultas{
+    visibility: visible;
+    /* flex:1; */
+    border-radius: 8px;
+    background-color:#333333;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: 0;
+    margin: 30px;
+    border: 3px solid #303030;
+}
+
+
+.lista{
+    visibility: hidden;
+}
+
+section{
+    margin: -2% 0;
+    
+}
+
+.list_home{
+    display: flex;
+    flex-direction: column;
+    
+}
+.list_home li{
+    flex:1;
+    margin: 0 10%;
+    background-color: #fcf7e4;
+}
+.list_home .different{
+    background-color: #DCEDF7;
+}
+.list_home li a{
+    color: #333333;
+    
+}
+
+.menu{
+    visibility: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin: 5% 8% 0 8%;
+} 
+
+h2{
+    margin: 0 6%;
+}
+
+.col11 p{
+    margin: 0 7%;
+}
+
+ .col1{
+    width: 100%;
+    flex: 1;
+    
+}
+
+.col11{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -35%;
+}
+
+.col112{
+    height: 10%;
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: column;
+    
+}
+
+.col1121{
+    flex:1;
+}
+
+.col1122{
+    flex:1;
+    width: 80%;
+    margin: 0 8%;
+    order: -1;
+}
+
+.col122{
+    
+    height: 10%;
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: column;
+    
+}
+
+.glasell{
+    flex:1;
+    width: 80%;
+    margin: 0 8%;
+    margin-bottom: 15px;
+}
+.col1222{
+    flex:1;
+}
+
+.col1222 ul {
+    margin: 0 7%;
+}
+
+.x{
+    margin-top: 40%;
+    margin-bottom: 0;
+}
+
+
+.col2{
+    margin: 7% 8%;
+    width: 100%;
+    flex: 1;
+    
+}
+.footer1 ul{
+    margin: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 20px;
+}
+.uno{
+    order: -2;
+}
+.dos{
+    order: -1;
+}
+
+.oculto{
+    visibility: visible;
+}
+.oculto span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col212{
+    font-size: 14px;
+}
+
+.col212 p, .col212 a{
+    font-size: 14px;
+    color: #333333;
+    line-height: 0;
+}
+
+.col211 img{
+    width: 70%;
+}
+
+}
